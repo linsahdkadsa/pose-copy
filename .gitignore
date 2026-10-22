@@ -1,0 +1,5 @@
+.DS_Store
+local.md
+scripts/draw
+scripts/pose
+__pycache__/
