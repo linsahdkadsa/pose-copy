@@ -20,6 +20,14 @@
 
 > 上面是同一个 AI 生成的模特，用不同的姿势参考图放进不同场景。每张 1 次生成（最后一张走了补救流程）。
 
+### 姿势跟得准不准
+
+左边是姿势参考图里的人（抠成剪影），右边是成片：
+
+![姿势参考剪影和成片对比](docs/compare.jpg)
+
+> 姿势参考图来自 Pinterest，是别人的照片，仓库里只放用 macOS Vision 抠出来的剪影，不放原图。
+
 这是 [Claude Code](https://claude.com/claude-code) / Codex 的 skill：装好以后，直接用中文跟 agent 说你要什么就行。
 
 ## 安装
