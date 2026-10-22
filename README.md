@@ -30,14 +30,6 @@
 
 > 姿势参考图来自 Pinterest，是别人的照片，仓库里只放用 macOS Vision 抠出来的剪影，不放原图。拱背那张幅度偏小，是一步法的已知局限。
 
-### 换成 Codex 自带生图
-
-不用 apimart，直接在 Codex 里跑：Codex 自己生成了一个新模特（下图），再从 Pinterest 找了 3 个没测过的姿势，各配一个场景。3 张里对上 2 张，半蹲那张手放低了。
-
-<p align="center"><img src="docs/codex_asset.jpg" width="600" alt="Codex 生成的模特资产：脸部特写和正侧背全身"></p>
-
-![Codex 自带生图：参考姿势剪影和成片对比](docs/compare_codex.jpg)
-
 这是 [Claude Code](https://claude.com/claude-code) / Codex 的 skill：装好以后，直接用中文跟 agent 说你要什么就行。
 
 ## 安装
@@ -54,7 +46,7 @@ git clone https://github.com/linsahdkadsa/pose-copy.git ~/.codex/skills/pose-cop
 
 **还需要**：
 - 一个能「图生图」的生图工具，下面任选一个：
-  - **Codex 自带生图**：在 Codex 里直接能用，不用另外配置。实测两张参考图都能吃，比例靠提示词，出图约 1086×1448。
+  - **Codex 自带生图**：在 Codex 里直接能用，不用另外配置。比例靠提示词，出图约 1086×1448。
   - **apimart MCP**：skill 按它测得最多（GPT Image 2.5 主流程、Nano Banana Pro 补救流程），参数写法见 SKILL.md 第五节。
   - 其他能调 GPT Image 2.5 / Nano Banana Pro 的 MCP 或 API，照着第五节的表改参数名。
 - 补救流程里的标关节脚本用 macOS 的 Vision 框架（`scripts/*.swift`，第一次运行会自己编译）。只走主流程用不到。
