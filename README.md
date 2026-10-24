@@ -69,7 +69,6 @@ git clone https://github.com/linsahdkadsa/pose-copy.git ~/.codex/skills/pose-cop
 | 工具 | 说明 |
 |---|---|
 | Codex 自带生图 | 在 Codex 里直接能用，不用配置。比例靠提示词，出图约 1086×1448 |
-| apimart MCP | 测得最多：GPT Image 2.5 走主流程（约 $0.03 一张），Nano Banana Pro 走补救流程 |
 | 其他 MCP / API | 能调 GPT Image 2.5 或 Nano Banana Pro 就行，参数名照 SKILL.md 第五节改 |
 
 可选：补救流程的标关节脚本用 macOS Vision（`scripts/*.swift`，第一次运行自己编译）；banana 改图偏洋红时用修色 skill repair-ai-image-quality，路径写进根目录的 `local.md`（自己建，不进仓库）。
